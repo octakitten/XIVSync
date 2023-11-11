@@ -1,0 +1,18 @@
+{
+    "Author": "octakitten",
+    "Name": "Syncworks",
+    "Punchline": "Video and audio playback and syncing within FFXIV.",
+    "Description": "Watch Youtube videos, Twitch streams, listen to music, and sync playback with your friends, too! /syncworks for settings.",
+    "InternalName": "Syncworks",
+    "ApplicableVersion": "any",
+    "Tags": [
+        "video",
+        "Youtube",
+        "Twitch",
+        "music",
+        "stream",
+        "streaming",
+        "syncing",
+        "playback"
+    ]
+}
