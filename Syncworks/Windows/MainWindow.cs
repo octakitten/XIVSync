@@ -8,7 +8,6 @@ namespace Syncworks.Windows;
 
 public class MainWindow : Window, IDisposable
 {
-    private IDalamudTextureWrap GoatImage;
     private Plugin Plugin;
 
     public MainWindow(Plugin plugin, IDalamudTextureWrap goatImage) : base(
@@ -20,7 +19,6 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
-        this.GoatImage = goatImage;
         this.Plugin = plugin;
     }
 
@@ -41,8 +39,5 @@ public class MainWindow : Window, IDisposable
         ImGui.Spacing();
 
         ImGui.Text("Have a goat:");
-        ImGui.Indent(55);
-        ImGui.Image(this.GoatImage.ImGuiHandle, new Vector2(this.GoatImage.Width, this.GoatImage.Height));
-        ImGui.Unindent(55);
     }
 }
