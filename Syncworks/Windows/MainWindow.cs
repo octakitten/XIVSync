@@ -10,7 +10,7 @@ public class MainWindow : Window, IDisposable
 {
     private Plugin Plugin;
 
-    public MainWindow(Plugin plugin, IDalamudTextureWrap goatImage) : base(
+    public MainWindow(Plugin plugin) : base(
         "My Amazing Window", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         this.SizeConstraints = new WindowSizeConstraints
@@ -24,7 +24,7 @@ public class MainWindow : Window, IDisposable
 
     public void Dispose()
     {
-        this.GoatImage.Dispose();
+
     }
 
     public override void Draw()

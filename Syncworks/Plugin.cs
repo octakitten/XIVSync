@@ -4,6 +4,8 @@ using Dalamud.Plugin;
 using System.IO;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
+using YoutubeExplode;
+using LibVLCSharp.Shared;
 using Syncworks.Windows;
 
 namespace Syncworks
@@ -18,7 +20,6 @@ namespace Syncworks
         private ICommandManager CommandManager { get; init; }
         public Configuration Configuration { get; init; }
         public WindowSystem WindowSystem = new("Syncworks");
-
         private ConfigWindow ConfigWindow { get; init; }
         private MainWindow MainWindow { get; init; }
 
@@ -33,7 +34,7 @@ namespace Syncworks
             this.Configuration.Initialize(this.PluginInterface);
 
             ConfigWindow = new ConfigWindow(this);
-            MainWindow = new MainWindow(this, goatImage);
+            MainWindow = new MainWindow(this);
             
             WindowSystem.AddWindow(ConfigWindow);
             WindowSystem.AddWindow(MainWindow);

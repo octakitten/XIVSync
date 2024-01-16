@@ -7,6 +7,40 @@
         "requested": "[2.1.12, )",
         "resolved": "2.1.12",
         "contentHash": "Sc0PVxvgg4NQjcI8n10/VfUQBAS4O+Fw2pZrAqBdRMbthYGeogzu5+xmIGCGmsEZ/ukMOBuAqiNiB5qA3MRalg=="
+      },
+      "LibVLCSharp": {
+        "type": "Direct",
+        "requested": "[3.8.2, )",
+        "resolved": "3.8.2",
+        "contentHash": "P61Pkc+2GgX9PGJmm0MTVYKh0zPbak25rkyb5MU8Vq7x/VgFV/0h3L2bP7H4Oz5sfmm03H8T010cqEKQVA4Jew=="
+      },
+      "VideoLAN.LibVLC.Windows": {
+        "type": "Direct",
+        "requested": "[3.0.20, )",
+        "resolved": "3.0.20",
+        "contentHash": "ahujCn2kTPJSLEpwXu2BHIyv9Ke/iahd367hFwMMHSP9UkSOYC5QekOGFrSxKz22yZP67arcfCgNgDIcV31DpQ=="
+      },
+      "YoutubeExplode": {
+        "type": "Direct",
+        "requested": "[6.3.11, )",
+        "resolved": "6.3.11",
+        "contentHash": "EL8NierKI3vi/pmTiAwhwxyFZeLqrn2fatCfYBA00uOdMsjqm4im9zRbxCfIsvJTrZoUkLAZbJUUJtWIjNPwdQ==",
+        "dependencies": {
+          "AngleSharp": "1.0.7"
+        }
+      },
+      "AngleSharp": {
+        "type": "Transitive",
+        "resolved": "1.0.7",
+        "contentHash": "jZg7lDcrXRiIC8VBluuGKOCMR9mc4CIRX5vpQJ8fcgafs6T6plOzKHhAn3lJEwXorrltd9p1WtRxxhFpRBACbg==",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "7.0.0"
+        }
+      },
+      "System.Text.Encoding.CodePages": {
+        "type": "Transitive",
+        "resolved": "7.0.0",
+        "contentHash": "LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ=="
       }
     }
   }
