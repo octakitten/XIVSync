@@ -7,7 +7,7 @@ using Dalamud.Utility;
 using YoutubeExplode.Videos.Streams;
 using Dalamud.Plugin;
 
-namespace Syncworks.Video;
+namespace XIVSync.Video;
 
 /*
  * This class handles downloading a video from a youtube url
@@ -26,6 +26,7 @@ public class Stream : IDisposable
     {
         this.pluginInterface = pluginInterface;
     }
+    
     public async Task Download(string url)
     {
         var youtube = new YoutubeClient();

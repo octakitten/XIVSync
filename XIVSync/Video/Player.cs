@@ -1,6 +1,6 @@
 using System;
 
-namespace Syncworks.Video;
+namespace XIVSync.Video;
 
 public class Player : IDisposable
 {

@@ -3,14 +3,15 @@
   <Import Project="Dalamud.Plugin.Bootstrap.targets"/>
 
   <PropertyGroup>
-    <Authors></Authors>
+    <Authors>octakitten</Authors>
     <Company></Company>
     <Version>0.0.0.1</Version>
     <Description>Video and music playback and syncing in FFXIV.</Description>
-    <Copyright></Copyright>
-    <PackageProjectUrl>https://github.com/octakitten/Syncworks</PackageProjectUrl>
+    <Copyright>octakitten</Copyright>
+    <PackageProjectUrl>https://github.com/octakitten/XIVSync</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
+    <RootNamespace>XIVSync</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

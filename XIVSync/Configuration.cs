@@ -2,7 +2,7 @@ using Dalamud.Configuration;
 using Dalamud.Plugin;
 using System;
 
-namespace Syncworks
+namespace XIVSync
 {
     [Serializable]
     public class Configuration : IPluginConfiguration

@@ -6,20 +6,20 @@ using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
 using YoutubeExplode;
 using LibVLCSharp.Shared;
-using Syncworks.Windows;
+using XIVSync.Windows;
 
-namespace Syncworks
+namespace XIVSync
 
 {
     public sealed class Plugin : IDalamudPlugin
     {
-        public string Name => "Syncworks";
-        private const string CommandName = "/syncworks";
+        public string Name => "XIVSync";
+        private const string CommandName = "/sync";
 
         private DalamudPluginInterface PluginInterface { get; init; }
         private ICommandManager CommandManager { get; init; }
         public Configuration Configuration { get; init; }
-        public WindowSystem WindowSystem = new("Syncworks");
+        public WindowSystem WindowSystem = new("XIVSync");
         private ConfigWindow ConfigWindow { get; init; }
         private MainWindow MainWindow { get; init; }
 
